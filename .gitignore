@@ -1,0 +1,35 @@
+# ⚠️ Archivos sensibles y secretos
+.env
+*.key
+*.pem
+config/*.json
+config/*.yml
+
+# ⚙️ Dependencias
+node_modules/
+vendor/
+
+# 🛠️ Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# 📚 Logs y cachés
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+*.log
+.cache/
+
+# 🗂️ Archivos específicos de IDEs
+.vscode/
+.idea/
+*.iml
+
+# 📦 Build outputs
+/dist
+/build
+/public/build
+
+# 🚀 Secretos específicos
+google_oauth_client_*.json
+google_oauth_client_*.php
